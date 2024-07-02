@@ -2,7 +2,7 @@ import { Element } from "react-scroll"
 
 const ContactMe = () => {
     return (
-        <Element name="contact-me"><div className="lg:flex lg:gap-2 pt-16 md:pt-24 py-20 border-b">
+        <Element name="contact-me"><div className="lg:flex lg:gap-2 mt-28 md:mt-40 pb-20 border-b">
             <div className="lg:w-1/2 text-start ">
                 <h1 className="text-[40px] md:text-7xl lg:text-[88px] font-bold text-white text-center lg:text-start">
                     Contact
@@ -15,7 +15,7 @@ const ContactMe = () => {
                     <input type="text" placeholder="NAME" className="block bg-transparent w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border-b border-gray-200 focus:border-[#4EE1A0] focus:ring-[#4EE1A0] focus:outline-none focus:ring focus:ring-opacity-0" />
                     <input type="email" placeholder="EMAIL" className="block bg-transparent w-full px-5 py-3 mt-6 text-gray-700 placeholder-gray-400 border-b border-gray-200 focus:border-[#4EE1A0] focus:ring-[#4EE1A0] focus:outline-none focus:ring focus:ring-opacity-0" />
                     <textarea className="block bg-transparent w-full h-32 px-5 py-3 mt-6 text-gray-700 placeholder-gray-400 border-b border-gray-200 md:h-48 focus:border-[#4EE1A0] focus:ring-[#4EE1A0] focus:outline-none focus:ring focus:ring-opacity-0" placeholder="MESSAGE"></textarea>
-                    <p className="text-end pt-8">
+                    <p className="text-center md:text-end pt-8">
                         <button className="border-b-2 border-[#4EE1A0] hover:text-[#4EE1A0] text-lg hover:font-bold py-2 text-md font-normal" style={{ transition: '550ms' }}>
                             get in touch
                         </button>

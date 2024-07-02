@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 import projectImage from "../../assets/project.jpg"
 const Project = () => {
     return (
-        <Element name="projects"> <div className="py-20 md:pt-28 lg:pt-44">
+        <Element name="projects"> <div className="my-20 md:mt-28 lg:mt-44">
             <h1 className="text-[40px] md:text-7xl lg:text-[88px] font-bold text-white">Projects</h1>
             <div className="pt-10 md:pt-16 lg:pt-20">
                 <div href="#" className="flex flex-col items-center rounded-lg md:flex-row-reverse md:max-w-4xl lg:max-w-5xl lg:hover:max-w-full gap-5" style={{ transition: '1000ms' }}>
