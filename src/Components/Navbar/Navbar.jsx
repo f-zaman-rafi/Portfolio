@@ -1,11 +1,12 @@
 import githubIcon from "../../assets/github.svg"
 import mailIcon from "../../assets/email.png"
 import linkedInIcon from "../../assets/linkedin.svg"
+import { Element } from "react-scroll";
 
 
 const Navbar = () => {
     return (
-        <div className="relative">
+        <Element name="navbar"><div className="relative">
             <div className="absolute inset-0 z-20">
                 <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 items-center md:justify-between pt-5 md:pt-7 lg:pt-10">
                     <div>
@@ -27,7 +28,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-
+        </Element>
     );
 };
 

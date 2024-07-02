@@ -1,8 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { Element } from "react-scroll";
+
 const Education = () => {
     return (
-        <div className="pt-20 md:pt-28 lg:pt-44">
+        <Element name="education"><div className="pt-20 md:pt-28 lg:pt-44">
             <h1 className="text-[40px] md:text-7xl lg:text-[88px] font-bold text-white">Education</h1>
             <div className="pt-10 md:pt-16 lg:pt-20">
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-center md:gap-20 lg:gap-32 lg:hover:gap-20 group hover:text-white" style={{ transition: '900ms' }}>
@@ -20,6 +22,7 @@ const Education = () => {
                 </div>
             </div>
         </div >
+        </Element >
     );
 };
 

@@ -1,17 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-scroll";
+import { Element, Link } from "react-scroll";
 import image from "../../assets/Banner.jpg"
 
 
 const Banner = () => {
     return (
-        <div className="flex flex-col-reverse gap-10 md:gap-0 md:flex-row justify-between items-center md:items-start relative ">
+        <Element name="home"><div className="flex flex-col-reverse gap-10 md:gap-0 md:flex-row justify-between items-center md:items-start relative ">
             <div className="flex-1 md:absolute pt-0 z-10">
                 <p className="text-[40px] md:text-7xl lg:text-[88px] font-bold md:pt-[198px] text-center md:text-start text-white md:pr-[80px] lg:pr-20 md:w-4/5">
                     Nice to meet you! I'm <span className="border-b-[4px] border-[#4EE1A0]">Rafi</span>.
                 </p>
                 <p className="pt-5 md:pt-14 max-w-sm mx-auto md:mx-0 text-center md:text-start text-gray-300 text-base lg:text-lg font-medium">Based in Malaysia, I’m a MERN Stack Developer with a knack for creating engaging and accessible web experiences.</p>
-                <p className="pt-7 md:pt-9 lg:pt-16 text-base text-center md:text-start text-gray-300 "><Link to="Contact" smooth={true} duration={1500} hashSpy={true} spy={true}><button className="border-b-[4px] border-[#4EE1A0] hover:text-[#4EE1A0] hover:font-bold hover:text-xl" style={{ transition: '1000ms' }}>Let's Connect</button></Link></p>
+                <p className="pt-7 md:pt-9 lg:pt-16 text-base text-center md:text-start text-gray-300 "><Link to="contact-me" smooth={true} duration={1500} hashSpy={true} spy={true}><button className="border-b-[4px] border-[#4EE1A0] hover:text-[#4EE1A0] hover:font-bold hover:text-xl" style={{ transition: '400ms' }}>Let's Connect</button></Link></p>
             </div>
             <div className="flex-1 flex justify-center md:justify-end px-6 md:px-0">
                 <img
@@ -22,7 +22,7 @@ const Banner = () => {
 
             </div>
         </div >
-
+        </Element>
     );
 };
 

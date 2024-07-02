@@ -2,7 +2,7 @@ import { Element } from "react-scroll"
 
 const ContactMe = () => {
     return (
-        <Element name="Contact"><div className="lg:flex lg:gap-2 pt-16 md:pt-24 py-20 border-b">
+        <Element name="contact-me"><div className="lg:flex lg:gap-2 pt-16 md:pt-24 py-20 border-b">
             <div className="lg:w-1/2 text-start ">
                 <h1 className="text-[40px] md:text-7xl lg:text-[88px] font-bold text-white text-center lg:text-start">
                     Contact
