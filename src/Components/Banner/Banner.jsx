@@ -5,7 +5,7 @@ import image from "../../assets/Banner2.jpg"
 const Banner = () => {
     return (
         <div className="flex flex-col-reverse gap-10 md:gap-0 md:flex-row justify-between items-center md:items-start relative ">
-            <div className="flex-1 md:absolute pt-0 z-20">
+            <div className="flex-1 md:absolute pt-0 z-10">
                 <p className="text-[40px] md:text-7xl lg:text-[88px] font-bold md:pt-[198px] text-center md:text-start text-white md:pr-[150px] lg:pr-[135px] md:w-4/5">
                     Nice to meet you! I'm <span className="border-b-[4px] border-[#4EE1A0]">Rafi</span>.
                 </p>
