@@ -5,10 +5,6 @@ const Education = () => {
         <div className="pt-20 md:pt-28 lg:pt-44">
             <h1 className="text-[40px] md:text-7xl lg:text-[88px] font-bold text-white">Education</h1>
             <div className="pt-10 md:pt-16 lg:pt-20">
-
-
-
-
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-center md:gap-20 lg:gap-32 hover:gap-20 group hover:text-white" style={{ transition: '900ms' }}>
                     <div><h1 className="text-3xl md:text-5xl lg:text-7xl py-5  group-hover:text-[#4EE1A0]" style={{ transition: '900ms' }}>2024</h1></div>
                     <div className="md:border-b-2 max-w-3xl pb-10 group-hover:border-[#4EE1A0]" style={{ transition: '900ms' }}>

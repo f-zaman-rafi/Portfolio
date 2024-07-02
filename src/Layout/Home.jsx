@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner/Banner";
+import ContactMe from "../Components/ContactForm/ContactMe";
 import Skills from "../Components/Expertise/Skills";
 import Navbar from "../Components/Navbar/Navbar";
 import Project from "../Components/Projects/Project";
@@ -13,6 +14,8 @@ const Home = () => {
                 <Skills />
                 <Education />
                 <Project />
+                <ContactMe />
+
             </div>
         </div>
     );
