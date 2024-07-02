@@ -11,7 +11,7 @@ const Banner = () => {
                     Nice to meet you! I'm <span className="border-b-[4px] border-[#4EE1A0]">Rafi</span>.
                 </p>
                 <p className="pt-5 md:pt-14 max-w-sm mx-auto md:mx-0 text-center md:text-start text-gray-300 text-base lg:text-lg font-medium">Based in Malaysia, I’m a MERN Stack Developer with a knack for creating engaging and accessible web experiences.</p>
-                <Link to="Contact" smooth={true} duration={2000} hashSpy={true} spy={true} offset={50}><p className="pt-7 md:pt-9 lg:pt-16 text-base font-bold text-center md:text-start text-gray-300 "><button className="border-b-[4px] border-[#4EE1A0]">Let's Connect</button></p></Link>
+                <Link to="Contact" smooth={true} duration={1500} hashSpy={true} spy={true}><p className="pt-7 md:pt-9 lg:pt-16 text-base text-center md:text-start text-gray-300 "><button className="border-b-[4px] border-[#4EE1A0] hover:text-[#4EE1A0] hover:font-bold hover:text-xl" style={{ transition: '1000ms' }}>Let's Connect</button></p></Link>
             </div>
             <div className="flex-1 flex justify-center md:justify-end px-6 md:px-0">
                 <img
