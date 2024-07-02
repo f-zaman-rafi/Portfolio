@@ -1,7 +1,8 @@
+import { Element } from "react-scroll"
 
 const ContactMe = () => {
     return (
-        <div className="lg:flex lg:gap-2 pt-16 md:pt-24">
+        <Element name="Contact"><div className="lg:flex lg:gap-2 pt-16 md:pt-24 py-20">
             <div className="lg:w-1/2 text-start ">
                 <h1 className="text-[40px] md:text-7xl lg:text-[88px] font-bold text-white text-center lg:text-start">
                     Contact
@@ -14,12 +15,15 @@ const ContactMe = () => {
                     <input type="text" placeholder="NAME" className="block bg-transparent w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border-b border-gray-200 focus:border-[#4EE1A0] focus:ring-[#4EE1A0] focus:outline-none focus:ring focus:ring-opacity-0" />
                     <input type="email" placeholder="EMAIL" className="block bg-transparent w-full px-5 py-3 mt-6 text-gray-700 placeholder-gray-400 border-b border-gray-200 focus:border-[#4EE1A0] focus:ring-[#4EE1A0] focus:outline-none focus:ring focus:ring-opacity-0" />
                     <textarea className="block bg-transparent w-full h-32 px-5 py-3 mt-6 text-gray-700 placeholder-gray-400 border-b border-gray-200 md:h-48 focus:border-[#4EE1A0] focus:ring-[#4EE1A0] focus:outline-none focus:ring focus:ring-opacity-0" placeholder="MESSAGE"></textarea>
-                    <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                        get in touch
-                    </button>
+                    <p className="text-end pt-8">
+                        <button className="border-b-2 border-[#4EE1A0] hover:text-[#4EE1A0] hover:font-bold py-2 text-md font-normal" style={{ transition: '550ms' }}>
+                            get in touch
+                        </button>
+                    </p>
                 </form>
             </div>
         </div>
+        </Element>
 
 
     );
