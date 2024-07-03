@@ -13,9 +13,7 @@ Welcome to my portfolio! This repository showcases my projects, skills, educatio
 ### THINKSYNC | Live - Client - Server
 - **Description:** Developed a comprehensive learning website with multiple sections including a navbar, banner, study sessions, tutors, footer, and additional showcase features. Admins can manage users, approve sessions, modify sessions, and delete inappropriate sessions. Tutors can add sessions, upload session materials, and request approval. Students can purchase courses via credit card, create, update, and delete notes.
 - **Technologies Used:** React.js, Node.js, Express.js, MongoDB, HTML5, CSS3, Tailwind CSS, Firebase, Git, GitHub.
-- **Additional Details:** Implemented dynamic user interfaces with React.js, built RESTful APIs with
-Express.js for data management and authentication, Integrated Stripe for seamless payment
-processing. and utilized MongoDB for efficient data storage and retrieval. Deployed the application
+- **Additional Details:** Implemented dynamic user interfaces with React.js, built RESTful APIs with Express.js for data management and authentication, Integrated Stripe for seamless payment processing and utilized MongoDB for efficient data storage and retrieval. Deployed the application
 on Netlify and Firebase for testing and demonstration purposes
 
 ## Skills
